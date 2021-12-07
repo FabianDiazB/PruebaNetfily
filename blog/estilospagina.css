@@ -10,7 +10,7 @@ color:lightcyan;
 }
 
 header{
-	background:rgba(26,26,26);
+	background:rgb(24, 24, 24);
 	height:70px;
 	position:absolute;
 	width:100%;
@@ -120,13 +120,14 @@ h4 a:hover{
 
 
 footer{
-	background:black;
+	background:rgba(25, 126, 41, 0.3);
 	color:white;
 
 }
 
 footer p{
-font-size:20px;
+	font-weight:bold;
+font-size:23px;
 	padding:27px;
 	text-align:center;
 }
