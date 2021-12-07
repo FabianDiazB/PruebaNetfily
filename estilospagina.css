@@ -112,7 +112,7 @@ h4 a{
 }
 h4 a:hover{
 	background:rgba(0,178,18,.5);
-
+	transition:300ms;
 }
 
 
