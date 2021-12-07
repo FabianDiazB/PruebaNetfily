@@ -3,7 +3,8 @@ margin:0;
 padding:0;
 box-sizing:border-box;
 padding:90px 0px 0;
-background:;
+
+
 }
 
 header{
@@ -42,10 +43,7 @@ ul li a{
 	padding:40px;
 }
 
-.contenido{
-padding-left:5px;
 
-}
 
 .contexto{
 	font-size:18px;
@@ -63,7 +61,7 @@ padding-left:5px;
 	font-size:17px;
 	font-family:Roboto, arial;
 	background:rgba(0,0,0,.2);
-	border-radius:3%;
+	border-radius:2%;
 
 }
 
@@ -84,12 +82,13 @@ padding-left:5px;
 	font-size:17px;
 	font-family:Roboto, arial;
 	background:rgba(0,0,0,.2);
-	border-radius:3%;
+	border-radius:2%;
 }
 
 .im{
 	width:100%;
 	max-width:280px;
+	box-shadow:1px 2px 2px 2px white;
 
 }
 
@@ -101,17 +100,19 @@ padding-left:5px;
 	font-size:17px;
 	font-family:Roboto, arial;
 	background:rgba(0,0,0,.2);
-	border-radius:3%;
+	border-radius:2%;
 }
 
 h4 a{
 	text-decoration:none;
 	padding:7px;
 	color:white;
-	background:rgba(0,128,18,.5);
+	background:rgba(14, 93, 21, 0.5);
+	box-shadow:4px 5px 6px white;
 }
 h4 a:hover{
 	background:rgba(0,178,18,.5);
+	box-shadow:none;
 }
 
 
