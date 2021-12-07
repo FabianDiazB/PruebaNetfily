@@ -11,7 +11,7 @@ color:lightcyan;
 
 header{
 	background:rgba(26,26,26);
-	height:65px;
+	height:70px;
 	position:absolute;
 	width:100%;
 	top:0;
@@ -42,7 +42,7 @@ ul li a{
 	color:white;
 	font-weight:bold;
 	font-size:22px;
-	padding:40px;
+	padding:30px;
 }
 
 
