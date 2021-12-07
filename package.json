@@ -5,9 +5,9 @@
   "main": "interacciones.js",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "npm run build"
+    "build": "eleventy"
   },
-  "repository": {
+  "repository": { 
     "type": "git",
     "url": "git+https://github.com/FabianDiazB/PruebaNetfily.git"
   },
