@@ -3,6 +3,8 @@ margin:0;
 padding:0;
 box-sizing:border-box;
 padding:90px 0px 0;
+background:black;
+color:lightcyan;
 
 
 }
@@ -60,7 +62,7 @@ ul li a{
 	padding:5px 50px;
 	font-size:17px;
 	font-family:Roboto, arial;
-	background:rgba(0,0,0,.2);
+	background:rgba(255,255,255,.1);
 	box-shadow:0.5px 2px 1px grey ;
 
 }
@@ -81,7 +83,7 @@ ul li a{
 	padding:5px 50px;
 	font-size:17px;
 	font-family:Roboto, arial;
-	background:rgba(0,0,0,.2);
+	background:rgba(255,255,255,.1);
 	box-shadow:0.5px 2px 1px grey ;
 }
 
@@ -99,7 +101,7 @@ ul li a{
 	padding:5px 50px;
 	font-size:17px;
 	font-family:Roboto, arial;
-	background:rgba(0,0,0,.2);
+	background:rgba(255,255,255,.1);
 	box-shadow:0.5px 2px 1px grey ;
 	
 }
