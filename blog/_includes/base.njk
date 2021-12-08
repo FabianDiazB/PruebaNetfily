@@ -11,13 +11,49 @@
     {% include 'header.njk' %}
 
     {{ content | safe }}
+    <div class="sinopsis" id="sinopsis">
     {% include 'sinopsis.njk' %}
-    {% include 'personajes.njk' %}
 
+        </div>
+    <div class="personajes" id="personajes">
+             {% include 'personajes.njk' %}
+
+    {%- for post in collections.post -%}
+               <p><h3>{{post.data.personaje}}</h3>
+                {{post.data.descripcionpersonaje}}
+                </p>
+                <img src="{{post.data.imagenpersonaje}}" class="im" width="" alt="">
+               
+
+    {%- endfor %}
+    </div> 
+    
+
+<div class="cronologia" id="cronologia">
     {% include 'cronologia.njk' %}
+
+{%- for post in collections.post -%}
+     <p>
+    <h4><a href="{{post.data.enlacetemporada}}">{{post.data.temporada}}</a> </h4>
+    {{post.data.descripciontemporada}}
+    </p> 
+{%- endfor %}
+</div>
 
     {% include 'footer.njk' %}
 
    <script type="text/javascript" src="interacciones.js" ></script>
 </body>
 </html>
+
+{# 
+variables para postear
+personaje:
+descripcionpersonaje:
+imagenpersonaje:
+
+
+enlacetemporada:
+temporada:
+descripciontemporada:
+ #}
